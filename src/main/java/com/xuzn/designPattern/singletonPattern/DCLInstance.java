@@ -27,4 +27,19 @@ public class DCLInstance {
         return dclInstance;
     }
 
+    public static void main(String[] args) {
+
+        for (int i = 0; i < 10; i++) {
+            new Thread(() -> {
+                DCLInstance dclInstance = DCLInstance.getDclInstance();
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(dclInstance.hashCode());
+            }).start();
+        }
+    }
+
 }
