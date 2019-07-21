@@ -1,4 +1,4 @@
-package com.xuzn.designPattern.singletonPattern;
+package com.xuzn.designpattern.singletonpattern;
 
 /**
  * 懒汉单例线程安全实现

@@ -1,4 +1,4 @@
-package com.xuzn.designPattern.singletonPattern;
+package com.xuzn.designpattern.singletonpattern;
 
 /**
  * 饿汉单例模式

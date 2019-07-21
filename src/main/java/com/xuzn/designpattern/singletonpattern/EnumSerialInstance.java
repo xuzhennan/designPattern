@@ -1,4 +1,4 @@
-package com.xuzn.designPattern.singletonPattern;
+package com.xuzn.designpattern.singletonpattern;
 
 import java.io.*;
 

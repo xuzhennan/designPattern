@@ -1,4 +1,4 @@
-package com.xuzn.designPattern.singletonPattern.attack;
+package com.xuzn.designpattern.singletonpattern.attack;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
