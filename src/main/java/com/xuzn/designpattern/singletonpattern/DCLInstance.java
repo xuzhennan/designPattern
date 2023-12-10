@@ -29,7 +29,7 @@ public class DCLInstance {
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < 10; i++) {
+/*        for (int i = 0; i < 10; i++) {
             new Thread(() -> {
                 DCLInstance dclInstance = DCLInstance.getDclInstance();
                 try {
@@ -39,7 +39,7 @@ public class DCLInstance {
                 }
                 System.out.println(dclInstance.hashCode());
             }).start();
-        }
+        }*/
     }
 
 }
